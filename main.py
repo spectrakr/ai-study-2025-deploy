@@ -10,7 +10,7 @@ load_dotenv()
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
 
-st.title("나의 ChatGPT :sunglasses:")
+st.title("나의 ChatGPT. :sunglasses:")
 
 with st.sidebar:
     btn_reset = st.button("대화 초기화")
